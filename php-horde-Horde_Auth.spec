@@ -3,16 +3,15 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Authentication API
 Name:		php-horde-Horde_Auth
-Version:	1.2.0
+Version:	1.4.3
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	70ebbe71028a9d0fb04cd9a87916beb2
+# Source0-md5:	80b16b5b7379155fc439951b14ef0a7c
 URL:		https://github.com/horde/horde/tree/master/framework/Auth/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
-BuildRequires:	php-pear-PEAR
 BuildRequires:	php-pear-PEAR >= 1:1.7.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
@@ -21,13 +20,16 @@ Requires:	php-hash
 Requires:	php-horde-Horde_Exception < 2.0.0
 Requires:	php-horde-Horde_Util < 2.0.0
 Requires:	php-pear >= 4:1.3.6-2
+Suggests:	php-ctype
 Suggests:	php-ftp
 Suggests:	php-horde-Horde_Db
+Suggests:	php-horde-Horde_History
 Suggests:	php-horde-Horde_Http
 Suggests:	php-horde-Horde_Imap_Client
 Suggests:	php-horde-Horde_Imsp
 Suggests:	php-horde-Horde_Kolab_Session
 Suggests:	php-horde-Horde_Ldap
+Suggests:	php-horde-Horde_Lock
 Suggests:	php-pecl-pam
 Suggests:	php-pecl-sasl
 BuildArch:	noarch
