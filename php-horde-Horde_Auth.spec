@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Authentication API
 Name:		php-horde-Horde_Auth
-Version:	1.4.3
+Version:	1.4.9
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	80b16b5b7379155fc439951b14ef0a7c
+# Source0-md5:	9ff8e925a46a203046173eea82480055
 URL:		https://github.com/horde/horde/tree/master/framework/Auth/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
