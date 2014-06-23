@@ -20,8 +20,10 @@ Requires:	php-channel(pear.horde.org)
 Requires:	php-horde-Horde_Exception < 2.0.0
 Requires:	php-horde-Horde_Util < 2.0.0
 Requires:	php-pear >= 4:1.3.6-2
-Suggests:	php-ctype
-Suggests:	php-ftp
+Suggests:	php(ctype)
+Suggests:	php(ftp)
+Suggests:	php(pam)
+Suggests:	php(sasl)
 Suggests:	php-horde-Horde_Db
 Suggests:	php-horde-Horde_History
 Suggests:	php-horde-Horde_Http
@@ -30,8 +32,6 @@ Suggests:	php-horde-Horde_Imsp
 Suggests:	php-horde-Horde_Kolab_Session
 Suggests:	php-horde-Horde_Ldap
 Suggests:	php-horde-Horde_Lock
-Suggests:	php-pecl-pam
-Suggests:	php-pecl-sasl
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
