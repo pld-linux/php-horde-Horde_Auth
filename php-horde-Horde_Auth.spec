@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Horde_Auth
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Authentication API
 Name:		php-horde-Horde_Auth
 Version:	1.4.9
